@@ -8,14 +8,10 @@ body {
 }
 
 .container {
-    padding: 0 4.25em;
+    padding: 0 2em;
 }
 
 /* NAVBAR */
-
-nav {
-    padding: 0 11em;
-}
 
 .navbar-brand,
 ul.navbar-nav li {
@@ -31,6 +27,39 @@ ul.navbar-nav li {
 
 /* HEADER */
 
+.designer {
+    width: 6em;
+    height: 6em;
+    background-color: #52ADBD;
+    top: 9em;
+    left: 17em;
+}
+
+.web-dev {
+    width: 9.5em;
+    height: 9.5em;
+    background-color: #6773CD;
+    bottom: 4em;
+    right: 18em;
+    z-index: 1;
+}
+
+.designer span {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+    transform: rotate(-17.52deg);
+}
+
+.web-dev span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    transform: rotate(-8.34deg);
+}
+
 .header {
     background-color: #1D2533;
 }
@@ -38,6 +67,10 @@ ul.navbar-nav li {
 .name {
     font-size: 64px;
     font-weight: bold;
+}
+
+.about {
+    width: 38%;
 }
 
 .about span {
@@ -147,6 +180,62 @@ ul.navbar-nav li {
 /* EXPERIENCE SECTION END*/
 
 /* WORKS SECTION */
+
+.design {
+    width: 13em;
+    height: 13em;
+    background-color: #52ADBD;
+    top: 19em;
+    left: 15em;
+}
+
+.development {
+    width: 13em;
+    height: 13em;
+    background-color: #6773CD;
+    bottom: 2em;
+    right: 16em;
+}
+
+.design span {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    transform: rotate(-17.52deg);
+
+}
+
+.development span {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    transform: rotate(-8.34deg);
+}
+
+.month,
+.year {
+    width: 4em;
+    height: 4em;
+    text-align: center;
+}
+
+.month span,
+.year span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.month {
+    background-color: #D8CAC7;
+
+}
+
+.year {
+    background-color: #68858E;
+    margin-left: -1em;
+}
 
 .works {
     background-color: #1D2533;
