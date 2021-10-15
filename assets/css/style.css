@@ -367,7 +367,7 @@ footer {
 
 
     .about p {
-        font-size: 16px;
+        font-size: 14px;
         margin-bottom: 20px;
     }
 
@@ -403,9 +403,6 @@ footer {
         margin-bottom: 20px;
     }
 
-    .card-projects:nth-child(2) {
-        background-color: #6773CD;
-    }
 
     .card-projects h4 {
         font-weight: 500;
@@ -429,9 +426,7 @@ footer {
         margin-bottom: 24fpx;
     }
 
-    .experience row:nth-child(2) {
-        padding: 15px;
-    }
+
 
     /* EXPERIENCE SECTION END*/
 
@@ -450,7 +445,7 @@ footer {
 
 
     .work p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     /* WORKS SECTION END */
@@ -462,7 +457,7 @@ footer {
     }
 
     .contact-text p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .contact-text p a {
