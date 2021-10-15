@@ -7,6 +7,29 @@ body {
     box-sizing: border-box;
 }
 
+/* MAIN */
+
+.experience,
+.works,
+.contact {
+    padding: 100px 0;
+}
+
+.about span,
+.about a,
+.work span,
+.contact-text span {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ABABAB;
+    text-decoration: none;
+}
+
+
+
+/* MAIN END */
+
 /* NAVBAR */
 
 nav {
@@ -73,15 +96,6 @@ ul.navbar-nav li {
     width: 38%;
 }
 
-.about span,
-.about a {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 150%;
-    color: #ABABAB;
-
-}
-
 .about h4 {
     font-weight: 600;
     font-size: 24px;
@@ -101,8 +115,8 @@ ul.navbar-nav li {
 
 /* EXPERIENCE SECTION */
 
-.experience {
-    padding: 100px 0;
+.skill-experience {
+    margin-bottom: 20px;
 }
 
 .skill-experience h2 {
@@ -240,19 +254,10 @@ ul.navbar-nav li {
 
 .works {
     background-color: #1D2533;
-    padding: 100px 0;
 }
 
 .works .container .row {
     padding: 50px 0;
-}
-
-.work span {
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 150%;
-    color: #ABABAB;
-
 }
 
 .work h4 {
@@ -273,10 +278,6 @@ ul.navbar-nav li {
 
 /* CONTACT SECTION */
 
-.contact {
-    padding: 100px 0;
-}
-
 .contact-text h2 {
     font-weight: 600;
     font-size: 48px;
@@ -289,6 +290,10 @@ ul.navbar-nav li {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.01em;
+}
+
+.contact-text span {
+    text-decoration: none;
 }
 
 .contact-text p a {
@@ -310,9 +315,184 @@ footer {
 
 /* FOOTER END */
 
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {
+
+    /* MAIN */
+
+    .experience,
+    .works,
+    .contact {
+        padding: 50px 0;
+    }
+
+
+    /* MAIN END */
+
+    /* NAVBAR */
+
+    .navbar-brand,
+    ul.navbar-nav li {
+        font-size: 14px;
+    }
+
+
+    /* NAVBAR END*/
+
+    /* HEADER */
+
+    .avatar {
+        width: 100%;
+    }
+
+    .text-header {
+        position: relative !important;
+    }
+
+    .name {
+        font-size: 32px;
+    }
+
+    .about {
+        width: 100%;
+        padding-top: 5em;
+    }
+
+    .about h4 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+
+
+    .about p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+
+    /* HEADER END */
+
+    /* EXPERIENCE SECTION */
+
+    .skill-experience h2 {
+        font-size: 24px;
+    }
+
+    .skill-experience h4 {
+        font-size: 18px;
+    }
+
+    .skill-experience span {
+        font-size: 14px;
+    }
+
+    .about-me h4 {
+        font-size: 18px;
+    }
+
+    .about-me p {
+        font-size: 16px;
+    }
+
+    .card-projects {
+        width: 100%;
+        padding: 20% 15%;
+        padding-top: 25%;
+        margin-bottom: 20px;
+    }
+
+    .card-projects:nth-child(2) {
+        background-color: #6773CD;
+    }
+
+    .card-projects h4 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        margin-bottom: 20px;
+    }
+
+    .card-projects small {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+        color: #CECECE;
+
+    }
+
+    .card-projects img {
+        width: 20%;
+        margin-bottom: 24fpx;
+    }
+
+    .experience row:nth-child(2) {
+        padding: 15px;
+    }
+
+    /* EXPERIENCE SECTION END*/
+
+    /* WORKS SECTION */
+
+    .works .container .row {
+        padding: 10px 0;
+    }
+
+
+    .work h4 {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+
+
+    .work p {
+        font-size: 16px;
+    }
+
+    /* WORKS SECTION END */
+
+    /* CONTACT SECTION */
+
+    .contact-text h2 {
+        font-size: 20px;
+    }
+
+    .contact-text p {
+        font-size: 16px;
+    }
+
+    .contact-text p a {
+        color: #52ADBD;
+    }
+
+    .contact-text h2 img {
+        width: 20%;
+    }
+
+    .btn-send {
+        background-color: #6773CD;
+        border-color: #6773CD;
+    }
+
+    /* CONTACT SECTION END */
+
+
+    /* FOOTER */
+
+    footer .row {
+        width: 100% !important;
+    }
+
+    /* FOOTER END */
+
+}
+
 @media (max-width: 1399.98px) {
     .container {
         padding: 0 2em;
     }
-
 }
