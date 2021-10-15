@@ -90,6 +90,7 @@ ul.navbar-nav li {
 .name {
     font-size: 64px;
     font-weight: bold;
+    width: 50%;
 }
 
 .about {
@@ -321,6 +322,10 @@ footer {
 
     /* MAIN */
 
+    .navbar {
+        position: relative !important;
+    }
+
     .experience,
     .works,
     .contact {
@@ -351,12 +356,14 @@ footer {
     }
 
     .name {
-        font-size: 32px;
+        font-size: 24px;
+        position: relative !important;
+        margin: 0.5em 0;
+        width: 100%;
     }
 
     .about {
         width: 100%;
-        padding-top: 5em;
     }
 
     .about h4 {
