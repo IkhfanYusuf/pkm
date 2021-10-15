@@ -7,11 +7,11 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    padding: 0 2em;
-}
-
 /* NAVBAR */
+
+nav {
+    z-index: 1;
+}
 
 .navbar-brand,
 ul.navbar-nav li {
@@ -73,7 +73,8 @@ ul.navbar-nav li {
     width: 38%;
 }
 
-.about span {
+.about span,
+.about a {
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;
@@ -308,3 +309,10 @@ footer {
 }
 
 /* FOOTER END */
+
+@media (max-width: 1399.98px) {
+    .container {
+        padding: 0 2em;
+    }
+
+}
