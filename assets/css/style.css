@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1C222C;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 5.5%;
+}
+
+/* NAVBAR */
+
+nav {
+    padding: 0 13.5%;
+}
+
+.navbar-brand,
+ul.navbar-nav li {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+ul.navbar-nav li {
+    margin: 0 15px;
+}
+
+/* NAVBAR END*/
+
+/* HEADER */
+
+.header {
+    background-color: #1D2533;
+}
+
+.name {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.about span {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ABABAB;
+
+}
+
+.about h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+
+.about p {
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 100px;
+}
+
+/* HEADER END*/
+
+/* EXPERIENCE SECTION */
+
+.experience {
+    padding: 100px 0;
+}
+
+.skill-experience h2 {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 150%;
+}
+
+.skill-experience h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #52ADBD;
+}
+
+.skill-experience span {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.about-me h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.about-me p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.card-projects {
+    background-color: #29303E;
+    width: 32.5%;
+    border-radius: 0;
+    padding: 13% 6%;
+    padding-bottom: 5%;
+}
+
+.card-projects:nth-child(2) {
+    background-color: #6773CD;
+}
+
+.card-projects h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    margin-bottom: 20px;
+}
+
+.card-projects small {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #CECECE;
+
+}
+
+.card-projects img {
+    width: 20%;
+    margin-bottom: 24fpx;
+}
+
+.experience row:nth-child(2) {
+    padding: 15px;
+}
+
+/* EXPERIENCE SECTION END*/
+
+/* WORKS SECTION */
+
+.works {
+    background-color: #1D2533;
+    padding: 100px 0;
+}
+
+.works .container .row {
+    padding: 50px 0;
+}
+
+.work span {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ABABAB;
+
+}
+
+.work h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 15px;
+    margin-bottom: 28px;
+}
+
+
+.work p {
+    font-size: 18px;
+    line-height: 150%;
+}
+
+/* WORKS SECTION END */
+
+/* CONTACT SECTION */
+
+.contact {
+    padding: 100px 0;
+}
+
+.contact-text h2 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.contact-text p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+}
+
+.contact-text p a {
+    color: #52ADBD;
+}
+
+.btn-send {
+    background-color: #6773CD;
+    border-color: #6773CD;
+}
+
+/* CONTACT SECTION END */
+
+/* FOOTER */
+
+footer {
+    padding: 50px 0;
+}
+
+/* FOOTER END */
